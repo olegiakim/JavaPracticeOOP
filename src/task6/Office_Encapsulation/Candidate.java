@@ -7,7 +7,6 @@ public class Candidate {
     private int age;
     private boolean isDegree;
 
-
     public Candidate(String firstName, String lastName, int age, boolean isDegree) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -15,14 +14,25 @@ public class Candidate {
         this.isDegree = isDegree;
     }
 
-    public String getFirstName() {
-        return firstName;
+    // getter
+    public String getFirstName() {return firstName;}
+
+    public int getAge() {return age;}
+
+    public boolean getIsDegree() { return isDegree;}
+
+    // setter
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public int getAge() {
-        return age;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
+    public void setDegree(boolean isDegree) {
+        this.isDegree = isDegree;
+    }
 
 
 }
