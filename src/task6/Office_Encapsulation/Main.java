@@ -6,12 +6,11 @@ public class Main {
 
         Candidate candidate1 = new Candidate("John", "Smith", 35, true);
 
+        String firstName1 = candidate1.getFirstName();
+        System.out.println(firstName1);
 
-//        System.out.println(candidate1.lastName);
-//
-//        candidate1.lastName = "Black";
-//
-//        System.out.println(candidate1.lastName);
+        int age1 = candidate1.getAge();
+        System.out.println(age1);
 
     }
 }

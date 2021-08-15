@@ -5,17 +5,23 @@ public class Candidate {
     private String firstName;
     private String lastName;
     private int age;
-    private boolean is_degree;
+    private boolean isDegree;
 
 
-    public Candidate(String firstName, String lastName, int age, boolean is_degree) {
+    public Candidate(String firstName, String lastName, int age, boolean isDegree) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.is_degree = is_degree;
+        this.isDegree = isDegree;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
 
+    public int getAge() {
+        return age;
+    }
 
 
 
