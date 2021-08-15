@@ -4,6 +4,7 @@ public class Admin {
 
     public void checkClient(String clientFirstName, String clientLastName, int clientAge, boolean clientIsId) {
 
+        //
         if (clientIsId == false) {
             System.out.println(clientFirstName + " " + clientLastName + " you don't have an id... go home");
         } else {
