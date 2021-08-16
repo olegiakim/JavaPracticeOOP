@@ -17,6 +17,15 @@ public class Main {
         // Client #3
         admin.checkClient(client3.getFirstName(), client3.getLastName(), client3.getAge(), client3.getIsId());
 
+        // Client 3 Update isID from false to true
+        client3.setIsId(true);
+        admin.checkClient(client3.getFirstName(), client3.getLastName(), client3.getAge(), client3.getIsId());
+
+
+        // Client 2 Updated age from 18 to 22;
+        client2.setAge(22);
+        admin.checkClient(client2.getFirstName(), client2.getLastName(), client2.getAge(), client2.getIsId());
+
 
     }
 }

@@ -32,4 +32,14 @@ public class Client {
         return isID;
     }
 
+
+    // setter
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setIsId(boolean isID) {
+        this.isID = isID;
+    }
+
 }
